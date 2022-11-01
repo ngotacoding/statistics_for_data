@@ -11,7 +11,7 @@ The data used is the [Boston Housing Dataset](https://cf-courses-data.s3.us.clou
 
 ## Results of Statistical Analysis
 From the statistical analysis, it was identified that most towns do not border Charles River. As shown in the bar plot below: 
-![Image]('/Images/Charles River.png') over 400 towns do not border Charles River while only less than 50 do.
+![Image](/Images/Charles River.png) over 400 towns do not border Charles River while only less than 50 do.
 
 A T-Test was performed to check whether this status of bordering Charles River has statistical significance on the Median Value of houses. With a P-Value of 0.004, it proved that the median value of houses bordering Charles River is different from the Median Value of Houses that do not border Charles River. As such, the null hypothesis was rejected.
 
