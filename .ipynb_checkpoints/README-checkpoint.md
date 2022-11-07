@@ -11,10 +11,8 @@ The data used is the [Boston Housing Dataset](https://cf-courses-data.s3.us.clou
 
 ## Results of Statistical Analysis
 
-From the statistical analysis, the researcher identified that most towns do not border Charles River, i.e., Only 35 towns border Charles River, 471 do not.
+First, the researcher was required to discern the importance of Charles River on the location of towns and the influence this difference in location had on Median Value of Houses. The researcher found out that only 35 towns did border Charles River, while 471 did not.
 
-![Image 1](Images/Charles_River.png)
+The researcher then utilized a T-Test to check statistical importance of bordering Charles River on the Median Value of houses. A `P-Value of 0.004`, which is lower than the required 0.05, proved that the median value of houses bordering Charles River is different from the Median Value of Houses that do not border Charles River. As such, the researcher rejected the null hypothesis.
 
-A T-Test was performed to check whether this status of bordering Charles River has statistical significance on the Median Value of houses. However, a `P-Value of 0.004`, which is lower than the required 0.05, proved that the median value of houses bordering Charles River is different from the Median Value of Houses that do not border Charles River. As such, the researcher rejected the null hypothesis.
-
-Descritizing the age of the houses into three groups, "35 years and younger", "between 35 and 70 years" and "70 years and older", the researcher sought to identify whether the differences in age groups have a statistical impact on the Median Value of houses. An analysis of Variance(ANOVA) of the age groups yielded a p-value of `1.711e-15`, which is way lower than the required 0.05. The researcher's null hypothesis, The means for median values of houses are equal regardless of the age, was rejected as the opposite was proven true.
+Descritizing the age of the houses into three groups, "35 years and younger", "between 35 and 70 years" and "70 years and older", the researcher sought to answer the question on whether the differences in age groups have a statistical impact on the Median Value of houses. Utilizing an analysis of Variance(ANOVA) of the age groups yielded a p-value of `1.711e-15`, which is way lower than the required 0.05. The researcher's null hypothesis, was again rejected, as the median values of houses were found to differ depending on age of the house.
